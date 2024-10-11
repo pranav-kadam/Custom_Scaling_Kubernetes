@@ -1,5 +1,5 @@
 ### Start minikube
-```minikube start```
+`minikube start`
 ### Build the Docker image
 ```docker build -t custom-k8s-scaler:latest . ```
 
