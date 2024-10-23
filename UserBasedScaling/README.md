@@ -21,10 +21,10 @@
  - When the trend exceeds the threshold, it will scale up the example-deployment by 5 pods
 ### To View Dashboard and metrics endpoints
 ```minikube ip ``` 
-for eg. <ip> 
+for eg. 'ip'
 
 get ports using ```kubectl get services```
-use <ip> and <port>  go to  ```http://<ip>:<port1>```   and  ```http://<ip>:<port2>```
+use 'ip' and 'port'  go to  ```http://<ip>:<port1>```   and  ```http://<ip>:<port2>```
 
 
 
