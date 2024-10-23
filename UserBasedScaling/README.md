@@ -19,6 +19,14 @@
  - The example deployment starts with 2 replicas
  - The custom scaler will simulate increasing user traffic
  - When the trend exceeds the threshold, it will scale up the example-deployment by 5 pods
+### To View Dashboard and metrics endpoints
+```minikube ip ``` 
+for eg. <ip> 
+
+get ports using ```kubectl get services```
+use <ip> and <port>  go to  ```http://<ip>:<port1>```   and  ```http://<ip>:<port2>```
+
+
 
 ### Clean up
 ```kubectl delete -f k8s-manifests.yaml```
