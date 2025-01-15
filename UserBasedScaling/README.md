@@ -28,6 +28,7 @@ use 'ip' and 'port'  go to  ```http://<ip>:<port1>```   and  ```http://<ip>:<por
 
 ### To run the load testing module: ###
 ```python app.py```
+
 ```locust -f locustfile.py --host=http://localhost:5000```
 
 
