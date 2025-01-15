@@ -26,7 +26,7 @@ for eg. 'ip'
 get ports using ```kubectl get services```
 use 'ip' and 'port'  go to  ```http://<ip>:<port1>```   and  ```http://<ip>:<port2>```
 
-To run the load testing module:
+### To run the load testing module: ###
 ```python app.py```
 ```locust -f locustfile.py --host=http://localhost:5000```
 
